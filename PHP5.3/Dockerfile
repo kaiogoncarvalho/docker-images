@@ -1,7 +1,9 @@
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 MAINTAINER Kaio Gonçalves Carvalho
 
-RUN apt-get update && apt-get install -y vim curl git wget
+RUN apt-get update && apt-get install -y vim apache2 curl git wget build-essential python-software-properties \
+software-properties-common language-pack-en-base \
+&& LC_ALL=en_US.UTF-8 add-apt-repository -y ppa:eugenesan/ppa
 
 COPY Files/config_apache /etc/apache2/sites-available/default
 
