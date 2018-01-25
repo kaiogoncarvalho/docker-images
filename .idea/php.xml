@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="$USER_HOME$/.PhpStorm2017.3/system/plugins/idea-php-latest-plugin/php-v7.2.1/php.sh" id="017dc07a-3386-4be6-9ff3-8c8f270fc186" name="PHP latest" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>
