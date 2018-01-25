@@ -71,16 +71,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="php.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP5.6/Files/php.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26726">
-              <caret line="1909" column="6" lean-forward="false" selection-start-line="1909" selection-start-column="6" selection-end-line="1909" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP7.0/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP5.3/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
@@ -166,6 +156,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Apache/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -286,6 +286,11 @@
             <path>
               <item name="Docker Images" type="b2602c69:ProjectViewProjectNode" />
               <item name="Docker Images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Apache" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Docker Images" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Docker Images" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="PHP5.3" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -379,12 +384,12 @@
       <workItem from="1516652941333" duration="792000" />
       <workItem from="1516725558124" duration="1900000" />
       <workItem from="1516734246602" duration="1719000" />
-      <workItem from="1516833315177" duration="7213000" />
+      <workItem from="1516833315177" duration="7377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63528000" />
+    <option name="totallyTimeSpent" value="63692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-3" width="1321" height="773" extended-state="6" />
@@ -682,14 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apache/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="27" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apache/Files/config_apache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -814,6 +811,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apache/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding />
         </state>
       </provider>
