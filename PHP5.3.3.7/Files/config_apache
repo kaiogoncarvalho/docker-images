@@ -7,25 +7,15 @@
     # value is not decisive as it is used as a last resort host regardless.
     # However, you must set it for any further virtual host explicitly.
     #ServerName www.example.com
-    SetEnvIf Remote_Addr "::1" loopback
-
-    SetEnvIf Remote_Addr "127\.0\.0\.1" loopback
 
     ServerAdmin webmaster@localhost
-    DocumentRoot ${SITE_DOCUMENT_ROOT}
-    ServerName  ${SITE_HOST}
-    ErrorLog /var/log/apache2/error_idealinvest.log
-    CustomLog /var/log/apache2/access_idealinvest.log common env=!loopback
+    DocumentRoot /var/www
+    ServerName  localhost
 
-    <Directory ${SITE_DOCUMENT_ROOT}>
-          <IfModule mod_rewrite.c>
-            Options -MultiViews
-            RewriteEngine On
-            RewriteCond %{REQUEST_FILENAME} !-f
-            RewriteRule ^ index.php [L]
-          </IfModule>
-          Order allow,deny
-          Allow from all
+    <Directory /var/www>
+        AllowOverride All
+        Order allow,deny
+        Allow from all
     </Directory>
 
     # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
@@ -43,8 +33,7 @@
     # following line enables the CGI configuration for this host only
     # after it has been globally disabled with "a2disconf".
     #Include conf-available/serve-cgi-bin.conf
-
-
 </VirtualHost>
 
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+

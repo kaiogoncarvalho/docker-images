@@ -13,7 +13,6 @@
     ServerName  localhost
 
     <Directory /var/www>
-        AllowOverride All
         Order allow,deny
         Allow from all
     </Directory>
