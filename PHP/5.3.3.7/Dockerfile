@@ -13,12 +13,15 @@ ENV APACHE_LOCK_DIR /var/lock/apache2
 ENV APACHE_PID_FILE /var/run/apache2.pid
 
 RUN echo "deb http://archive.debian.org/debian/ squeeze contrib main non-free" > /etc/apt/sources.list
+RUN echo "deb http://ftp.de.debian.org/debian sid main" >> /etc/apt/sources.list
 
 RUN apt-get update
 
-RUN apt-get install -y  apache2 vim curl wget git
+RUN apt-get  -yt sid install apache2
 
-RUN apt-get install -y apache2 php5 php5-cli \
+RUN apt-get install -y vim curl wget git
+
+RUN apt-get install -y php5 php5-cli \
     libapache2-mod-php5 php5-gd php5-ldap php5-mysql php5-pgsql php5-xdebug php5-curl php5-mcrypt
 
 COPY ./Files/xdebug.ini /etc/php5/apache2/conf.d/xdebug.ini
