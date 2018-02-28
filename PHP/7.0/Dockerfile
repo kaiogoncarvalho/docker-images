@@ -2,8 +2,8 @@ FROM kaioidealinvest/apache:ubuntu16.04
 
 MAINTAINER Kaio Gonçalves Carvalho
 
-RUN apt-get update && apt-get install -y vim curl wget git build-essential python-software-properties \
-software-properties-common language-pack-en-base \
+RUN apt-get update && apt-get install -y \
+build-essential python-software-properties software-properties-common language-pack-en-base \
 && LC_ALL=en_US.UTF-8 add-apt-repository -y ppa:ondrej/php
 
 RUN apt-get update \

@@ -2,10 +2,10 @@ FROM ubuntu:12.04
 
 MAINTAINER Kaio Gonçalves Carvalho
 
-RUN apt-get update && apt-get install -y vim curl wget git
+RUN apt-get update && apt-get install -y vim curl wget git nano iputils-ping
 
 RUN apt-get update && apt-get install -y apache2 php5 php5-cli \
-    libapache2-mod-php5 php5-gd php5-ldap php5-mysql php5-pgsql curl git vim php5-xdebug php5-curl
+    libapache2-mod-php5 php5-gd php5-ldap php5-mysql php5-pgsql php5-xdebug php5-curl
 
 COPY ./Files/php.ini /etc/php5/apache2/
 COPY ./Files/php.ini /etc/php5/cli/
