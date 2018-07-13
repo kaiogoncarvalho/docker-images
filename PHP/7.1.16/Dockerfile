@@ -7,17 +7,14 @@ build-essential python-software-properties software-properties-common language-p
 && LC_ALL=en_US.UTF-8 add-apt-repository -y ppa:ondrej/php
 
 RUN apt-get update \
-&& apt-get install -y php7.1 php7.1-cli libapache2-mod-php7.1 php7.1-bcmath php7.1-gd php7.1-ldap php7.1-mysql \
-php7.1-pgsql php7.1-pdo php7.1-mysqlnd php7.1-mbstring php7.1-mcrypt php7.1-xml php7.1-zip php7.1-curl php7.1-xdebug php7.1-mongodb \
-php7.1-apcu php7.1-json php7.1-redis php7.1-opcache
+&& apt-get install -y php7.2 php7.2-cli libapache2-mod-php7.2 php7.2-bcmath php7.2-gd php7.2-ldap php7.2-mysql \
+php7.2-pgsql php7.2-pdo php7.2-mysqlnd php7.2-mbstring php7.2-mcrypt php7.2-xml php7.2-zip php7.2-curl php7.2-xdebug php7.2-mongodb
 
 RUN a2dismod mpm_prefork
 RUN a2dismod mpm_worker
 RUN a2dismod mpm_event
 RUN a2dismod php7.0
 RUN a2enmod php7.1
-
-RUN phpenmod apcu
 
 COPY Files/20-xdebug-cli.ini /etc/php/7.1/cli/conf.d/20-xdebug.ini
 COPY Files/20-xdebug.ini /etc/php/7.1/apache2/conf.d/20-xdebug.ini
