@@ -2,21 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57025e14-44eb-461b-99b3-81ab9d2fc160" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/7.1.16/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/7.1.16/Files/20-xdebug-cli.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/7.1.16/Files/20-xdebug.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/7.1.16/Files/php.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/nginx/7.2/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/nginx/7.2/Files/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/nginx/7.2/Files/php.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/nginx/7.2/Files/script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/nginx/7.2/Files/site.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/nginx/7.2/Files/xdebug.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node/9/Angular/Files/script.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node/9/Image/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Image/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Image/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Neo/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/7.0/Files/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/7.0/Files/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/7.1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/7.1/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/7.1/Files/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/7.1/Files/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apache/ubuntu16.04/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/Image/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apache/ubuntu16.04/Files/boot.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/Image/Files/boot.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apache/ubuntu16.04/Files/config_apache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apache/ubuntu16.04/Files/site.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/Image/Files/site.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composer/PHP7.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composer/PHP7.1/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composer/PHP7.1/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composer/PHP7.1/docker-entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node Modules/4/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Node/4/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node Modules/9/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Node/9/Angular/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP-CLI/7.1/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.3.10/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Image/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.3.10/Files/config_apache" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Image/Files/config_apache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.3.10/Files/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/PHP/5.3.10/Files/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.3.10/Files/site.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Image/Files/site.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.3.3.7/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/PHP/5.3.10/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.3.3.7/Files/config_apache" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/Image/Files/config_apache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.3.3.7/Files/php.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.3.3.7/Files/site.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.3.3.7/Files/xdebug.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.6/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.6/Files/20-xdebug-cli.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.2/Files/20-xdebug-cli.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.6/Files/20-xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Files/20-xdebug.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/5.6/Files/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Files/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.0/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.0/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.0/Files/20-xdebug-cli.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.1/Files/20-xdebug-cli.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.0/Files/20-xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.2/Files/20-xdebug.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.0/Files/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Files/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.1.16/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.2/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.1.16/Files/20-xdebug-cli.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.0/Files/20-xdebug-cli.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.1.16/Files/20-xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.1/Files/20-xdebug.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.1.16/Files/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.2/Files/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.1/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.1/Files/20-xdebug-cli.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Files/20-xdebug-cli.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.1/Files/20-xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.0/Files/20-xdebug.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/7.1/Files/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.1/Files/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/nginx/7.2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/Image/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/nginx/7.2/Files/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/Image/Files/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/nginx/7.2/Files/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.0/Files/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/nginx/7.2/Files/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Files/script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/nginx/7.2/Files/site.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Files/site.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/nginx/7.2/Files/xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Files/xdebug.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,9 +67,11 @@
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
     <expand />
     <select />
   </component>
@@ -47,90 +84,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/5.6/Dockerfile">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Node/9/Image/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/Node/9/Angular/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node/9/Angular/Files/script.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apache/ubuntu16.04/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Image/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="240">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/7.1/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/Image/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/nginx.conf">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="php.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/php.ini">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.0/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2052" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/script.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/site.conf">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/adcfea67-aab1-4ada-8bce-0ba96dce3803/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
+            <state relative-caret-position="-3243" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xdebug.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/xdebug.ini">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Neo/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -143,7 +180,6 @@
       <find>zend_extension</find>
       <find>reporting</find>
       <find>display</find>
-      <find>7.1</find>
       <find>remote_connect_back</find>
       <find>php5.3</find>
       <find>php5</find>
@@ -158,6 +194,7 @@
       <find>display_errors</find>
       <find>error_log</find>
       <find>memory_limit</find>
+      <find>7.1</find>
     </findStrings>
     <replaceStrings>
       <replace>7.0</replace>
@@ -165,6 +202,7 @@
       <replace>php53</replace>
       <replace>php54</replace>
       <replace>php5</replace>
+      <replace>7.2</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -173,23 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PHP5.6/Dockerfile" />
-        <option value="$PROJECT_DIR$/Npm Install/Dockerfile" />
-        <option value="$PROJECT_DIR$/PHP7.1/Dockerfile" />
-        <option value="$PROJECT_DIR$/PHP7.0/Dockerfile" />
-        <option value="$PROJECT_DIR$/PHP-CLI/7.1/Dockerfile" />
-        <option value="$PROJECT_DIR$/PHP5.3/Files/php.ini" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f8e66ef4-a8e3-4ace-8211-128e29bbb0c9/console.sql" />
-        <option value="$PROJECT_DIR$/PHP5.3-1/Dockerfile" />
-        <option value="$PROJECT_DIR$/PHP5.3-1/Files/config_apache" />
-        <option value="$PROJECT_DIR$/PHP5.3-1/Files/site.conf" />
-        <option value="$PROJECT_DIR$/PHP5.3/Files/site.conf" />
-        <option value="$PROJECT_DIR$/PHP5.3/Files/config_apache" />
-        <option value="$PROJECT_DIR$/PHP7.0/Files/php.ini" />
-        <option value="$PROJECT_DIR$/PHP5.3.3.7/Files/php.ini" />
-        <option value="$PROJECT_DIR$/Apache/Files/config_apache" />
-        <option value="$PROJECT_DIR$/PHP5.3.3.7/Files/config_apache" />
-        <option value="$PROJECT_DIR$/PHP5.3.3.7/Files/xdebug.ini" />
         <option value="$PROJECT_DIR$/PHP5.3.3.7/Files/site.conf" />
         <option value="$PROJECT_DIR$/PHP5.3.3.7/Dockerfile" />
         <option value="$PROJECT_DIR$/PHP5.3-Apache2.4/Files/config_apache" />
@@ -216,7 +237,6 @@
         <option value="$PROJECT_DIR$/PHP/nginx/7.2/Dockerfile" />
         <option value="$PROJECT_DIR$/PHP/5.6/Files/20-xdebug.ini" />
         <option value="$PROJECT_DIR$/PHP/5.3.10/Files/site.conf" />
-        <option value="$PROJECT_DIR$/Apache/ubuntu16.04/Dockerfile" />
         <option value="$PROJECT_DIR$/Apache/ubuntu16.04/Files/site.conf" />
         <option value="$PROJECT_DIR$/PHP/5.3.10/Dockerfile" />
         <option value="$PROJECT_DIR$/PHP/7.1/Files/php.ini" />
@@ -224,6 +244,24 @@
         <option value="$PROJECT_DIR$/PHP/nginx/7.2/Files/xdebug.ini" />
         <option value="$PROJECT_DIR$/PHP/nginx/7.2/Files/site.conf" />
         <option value="$PROJECT_DIR$/PHP/nginx/7.2/Files/script.sh" />
+        <option value="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16_04/Dockerfile" />
+        <option value="$PROJECT_DIR$/Apache/ubuntu16.04/Dockerfile" />
+        <option value="$PROJECT_DIR$/PHP/Ubuntu16.04/Apache/PHP/5.6/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.0/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.1/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Image/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/Image/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/PHP/5.3.10/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Image/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/Image/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.2/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Dockerfile" />
+        <option value="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Neo/Dockerfile" />
+        <option value="$PROJECT_DIR$/Node/9/Angular/Files/script.sh" />
+        <option value="$PROJECT_DIR$/Node/9/Angular/Dockerfile" />
+        <option value="$PROJECT_DIR$/Node/9/Image/Dockerfile" />
       </list>
     </option>
   </component>
@@ -248,10 +286,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="y" value="21" />
-    <option name="width" value="1309" />
-    <option name="height" value="747" />
+    <option name="x" value="124" />
+    <option name="y" value="-1" />
+    <option name="width" value="1853" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -277,7 +315,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,93 +322,11 @@
               <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
               <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="Apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="Apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ubuntu16.04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="Apache" type="462c0819:PsiDirectoryNode" />
-              <item name="ubuntu16.04" type="462c0819:PsiDirectoryNode" />
-              <item name="Files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="5.3.10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="5.3.10" type="462c0819:PsiDirectoryNode" />
-              <item name="Files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="5.6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="5.6" type="462c0819:PsiDirectoryNode" />
-              <item name="Files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="7.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="7.1" type="462c0819:PsiDirectoryNode" />
-              <item name="Files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="7.2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerImages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerImages" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="7.2" type="462c0819:PsiDirectoryNode" />
-              <item name="Files" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,19 +337,19 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PHP" />
-      <recent name="$PROJECT_DIR$/Apache/ubuntu16.04" />
-      <recent name="$PROJECT_DIR$/PHP5.3-Apache2.4/Files" />
-      <recent name="$PROJECT_DIR$/PHP5.3-1/Files/php-5.3" />
-      <recent name="$PROJECT_DIR$/PHP5.3-1/Files" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PHP/nginx/7.2/Files" />
-      <recent name="$PROJECT_DIR$/PHP" />
-      <recent name="$PROJECT_DIR$/Node Modules" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/PHP5.3" />
+      <recent name="$PROJECT_DIR$/Node/9/Angular/Files" />
+      <recent name="$PROJECT_DIR$/Node/9/Angular" />
+      <recent name="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Neo" />
+      <recent name="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP" />
+      <recent name="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/Image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Node/9/Image" />
+      <recent name="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image" />
+      <recent name="$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Image" />
+      <recent name="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP" />
+      <recent name="$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -500,25 +455,35 @@
       <workItem from="1531435025643" duration="105000" />
       <workItem from="1531435160647" duration="50000" />
       <workItem from="1531436096626" duration="1352000" />
+      <workItem from="1531443018149" duration="73000" />
+      <workItem from="1532344790583" duration="7968000" />
     </task>
+    <task id="LOCAL-00001" summary="Correções em vários docker files e adaptações">
+      <created>1531443076251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531443076251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189177000" />
+    <option name="totallyTimeSpent" value="197218000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25491267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25461456" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" weight="0.43441764" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50621116" side_tool="true" weight="0.3276923" />
-      <window_info id="Database" order="1" weight="0.32919255" />
+      <window_info id="Database" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36972973" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36979166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="11" />
@@ -545,297 +510,285 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correções em vários docker files e adaptações" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correções em vários docker files e adaptações" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Old/Ambiente Api Apartada/Dockerfile" />
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Files/site.conf">
+    <entry file="file://$PROJECT_DIR$/PHP/5.6/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Files/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="1746" column="28" selection-start-line="1746" selection-start-column="28" selection-end-line="1746" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Files/config_apache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Files/config_apache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.3.7/Files/config_apache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.3.7/Files/xdebug.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.3.7/Files/site.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.3.7/Files/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="1890" column="6" selection-start-line="1890" selection-start-column="6" selection-end-line="1890" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/7.1/Files/20-xdebug-cli.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP5.3-Apache2.4/Files/config_apache" />
-    <entry file="file://$PROJECT_DIR$/PHP5.3-Apache2.4/Files/apache2.conf" />
-    <entry file="file://$PROJECT_DIR$/PHP5.3-Apache2.4/Files/site.conf" />
-    <entry file="file://$PROJECT_DIR$/PHP5.3-Apache2.4/Files/php.ini" />
-    <entry file="file://$PROJECT_DIR$/PHP5.3-Apache2.4/Dockerfile" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ca778df-ddf5-49c2-ac82-e6f8b8703beb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node Modules/9/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node Modules/4/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-CLI/7.1/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.3.7/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Composer/PHP7.1/docker-entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Composer/PHP7.1/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/7.1.16/Files/20-xdebug.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/7.1.16/Files/20-xdebug-cli.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/7.1.16/Files/php.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/7.0/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/20-xdebug-cli.ini" />
-    <entry file="file://$PROJECT_DIR$/PHP/7.0/Files/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11934">
-          <caret line="663" column="30" selection-start-line="663" selection-start-column="26" selection-end-line="663" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/7.1.16/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Files/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="441" column="18" selection-start-line="441" selection-start-column="18" selection-end-line="441" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.6/Files/20-xdebug-cli.ini">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/5.6/Files/php.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7164">
+        <state relative-caret-position="-21680">
           <caret line="398" column="18" selection-start-line="398" selection-start-column="18" selection-end-line="398" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/5.6/Files/20-xdebug.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="105">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Files/site.conf">
+    <entry file="file://$PROJECT_DIR$/PHP/5.6/Files/20-xdebug-cli.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/Image/Files/boot.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Files/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Files/20-xdebug-cli.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Files/20-xdebug.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/7.0/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/7.1/Files/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7164">
-          <caret line="398" column="20" selection-start-line="398" selection-start-column="20" selection-end-line="398" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apache/ubuntu16.04/Files/config_apache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apache/ubuntu16.04/Files/site.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apache/ubuntu16.04/Files/boot.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/5.6/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apache/ubuntu16.04/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.0/Files/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/7.1/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="285">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/php.ini">
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.1/Files/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.1/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2052" />
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/nginx.conf">
+    <entry file="file://$PROJECT_DIR$/PHP/7.1.16/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.2/Files/20-xdebug-cli.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.2/Files/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.2/Files/20-xdebug.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/5.3.10/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/PHP/5.3.10/Files/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/5.3.3.7/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/xdebug.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/site.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="45">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/xdebug.ini">
+    <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-650">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Files/script.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="90">
           <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Image/Files/config_apache">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Image/Files/site.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.2/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/Image/Files/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/Image/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Files/xdebug.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Files/site.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Files/script.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/nginx/7.2/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apache/ubuntu16.04/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Files/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/4/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/PHP/5.3.10/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Image/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="76" lean-forward="true" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Image/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/Image/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Image/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/5.6/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Apache/PHP/7.0/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Xenial Xerus - 16.04/Nginx/PHP/7.2/Neo/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/adcfea67-aab1-4ada-8bce-0ba96dce3803/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Precise Pangolin - 12.04/Apache/Image/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/9/Angular/Files/script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/9/Angular/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node/9/Image/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
