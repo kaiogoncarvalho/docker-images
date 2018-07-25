@@ -5,7 +5,7 @@ MAINTAINER Kaio Gonçalves Carvalho
 ENV VOLUME='/var/www'
 ENV DOCUMENT_ROOT='/'
 
-ADD Files/script.sh /usr/local
+ADD Files/script.sh /usr/local/script.sh
 
 RUN chmod +x /usr/local/script.sh
 

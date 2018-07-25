@@ -1,4 +1,4 @@
-FROM kaiocarvalhopravaler/php:7.2-nginx
+FROM kaiocarvalhopravaler/php:7.2-nginxdocke
 
 MAINTAINER Kaio Gonçalves Carvalho
 
