@@ -3,6 +3,7 @@ FROM kaiocarvalhopravaler/nginx:ubuntu16.04
 MAINTAINER Kaio Gonçalves Carvalho
 
 ENV DEBIAN_FRONTEND=noninteractive
+ENV INDEX=index.php
 
 RUN apt-get update && apt-get install -y \
 build-essential python-software-properties software-properties-common language-pack-en-base \
