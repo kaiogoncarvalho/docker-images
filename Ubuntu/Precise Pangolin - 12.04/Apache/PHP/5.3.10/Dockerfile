@@ -6,5 +6,10 @@ RUN apt-get update && apt-get install -y php5 php5-cli php5-gd php5-ldap php5-my
 
 COPY ./Files/php.ini /etc/php5/apache2/
 COPY ./Files/php.ini /etc/php5/cli/
+COPY ./Files/xdebug.ini /etc/php5/conf.d/
 
-ENTRYPOINT ["/usr/sbin/apache2", "-D", "FOREGROUND"]
+COPY Files/boot.sh /scripts/boot.sh
+
+RUN chmod +x /scripts/boot.sh
+
+ENTRYPOINT ["/scripts/boot.sh"]

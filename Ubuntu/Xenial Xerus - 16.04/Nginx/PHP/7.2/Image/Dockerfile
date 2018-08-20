@@ -19,13 +19,12 @@ php7.2-pgsql php7.2-pdo php7.2-mysqlnd php7.2-mbstring \
 php7.2-xml php7.2-zip php7.2-curl php7.2-xdebug php7.2-mongodb
 
 ADD Files/site.conf /etc/nginx/sites-available/site.conf
-ADD Files/script.sh /usr/local/script.sh
+ADD Files/script.sh /scripts/boot.sh
 
 COPY Files/xdebug.ini /etc/php/7.2/mods-available/xdebug.ini
 COPY Files/php.ini /etc/php/7.2/fpm/php.ini
 
 
-RUN chmod +x /usr/local/script.sh
+RUN chmod +x /scripts/boot.sh
 
-CMD ["/bin/sh", "/usr/local/script.sh"]
-
+ENTRYPOINT ["/scripts/boot.sh"]
