@@ -19,6 +19,5 @@ RUN a2enmod php7.2
 
 RUN phpenmod apcu
 
-COPY Files/20-xdebug-cli.ini /etc/php/7.2/cli/conf.d/20-xdebug.ini
-COPY Files/20-xdebug.ini /etc/php/7.2/apache2/conf.d/20-xdebug.ini
+COPY Files/xdebug.ini /etc/php/7.2/mods-available/xdebug.ini
 COPY Files/php.ini /etc/php/7.2/apache2/php.ini

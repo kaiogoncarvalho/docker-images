@@ -17,6 +17,5 @@ RUN a2dismod php7.0
 RUN a2enmod php5.6
 
 
-COPY Files/20-xdebug-cli.ini /etc/php/5.6/cli/conf.d/20-xdebug.ini
-COPY Files/20-xdebug.ini /etc/php/5.6/apache2/conf.d/20-xdebug.ini
+COPY Files/xdebug.ini /etc/php/5.6/mods-available/xdebug.ini
 COPY Files/php.ini /etc/php/5.6/apache2/php.ini
